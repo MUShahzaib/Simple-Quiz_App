@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Quiz 01</title>
+    <link rel="stylesheet" href="styles-simple-quiz-app.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+    <script src="script-simple-quiz-app.js"> </script>
+    <script src="script-download-results2.js"> </script>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="header">
+            <h1>HTML Quiz 01</h1>
+            <div id="marks">Marks: 0/20</div>
+            <div id="timer">Time Remaining: 30:00</div>
+        </div>
+        <div class="quiz-container" id="quiz-container">
+            <!-- Quiz questions will be dynamically inserted here -->
+        </div>
+        <button onclick="submitQuiz()" id="submitButton">Submit</button>
+    </div>
+</body>
+</html>
